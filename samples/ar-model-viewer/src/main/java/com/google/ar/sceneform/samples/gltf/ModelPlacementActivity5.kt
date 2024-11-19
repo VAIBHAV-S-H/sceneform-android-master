@@ -129,6 +129,7 @@ class ModelPlacementActivity5 : AppCompatActivity() {
         } catch (e: Exception) {
             Log.e("ModelPlacementActivity5", "Error loading model", e)
         }
+        listAvailableAnimations()
     }
 
     // Place the model at the anchor point
